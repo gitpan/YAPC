@@ -1,7 +1,7 @@
 package YAPC;
 
 use strict;
-$YAPC::VERSION = '1.00';
+$YAPC::VERSION = '1.01';
 1;
 __END__
 
@@ -19,7 +19,7 @@ This module contains documentation and some support code for proposing,
 planning, and executing a technical conference.  While the specifics
 are relevant to a series of conferences supported by the Yet Another
 Society, the content may be informative for any group with an interest
-in promoting collaborative efforts and discussion on a focussed 
+in promoting collaborative efforts and discussion on a focused 
 technical topic.  
 
 The intended audience is a small but dedicated crew that would intend
@@ -45,7 +45,7 @@ interesting Perl people, including Larry Wall, who delivered to
 opening keynote on the first day of the two-day event.
 
 The event was such a success that it was repeated, again at Carnegie
-Mellon University, in 2000 -- and dubbed YAPC North America 19101, in
+Mellon University, in 2000 -- and dubbed YAPC North America 19100, in
 honor of all the "year 2000" concerns of the time.  Attendance was
 some three hundred and fifty people.
 

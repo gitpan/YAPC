@@ -1,6 +1,6 @@
 package YAPC;
 
-$YAPC::Venue::VERSION = '1.00';
+$YAPC::Venue::VERSION = '1.01';
 
 __END__
 
@@ -10,7 +10,7 @@ YAPC::Venue - Venue requirements for YAPC
 
 =head1 SYNOPSIS
 
-Facilities, Catering, Accomodation, Equipment, Transportation
+Facilities, Catering, Accommodation, Equipment, Transportation
 
 =head1 DESCRIPTION
 
@@ -26,7 +26,7 @@ Another Perl Conference (YAPC) in some detail.  If you have any
 questions, suggestions, or would like to propose to host YAPC, contact
 Kevin Lenzo at the Yet Another Society, <lenzo@yetanother.org>.
 
-Five major topic areas (facilities, catering, accomodation, equipment,
+Five major topic areas (facilities, catering, accommodation, equipment,
 and transportation) are addressed in turn.
 
 =head1 Facilities
@@ -35,30 +35,40 @@ All facilities should be accessible by disabled persons, and held
 in controlled temperature environments (air-conditioned or heated
 as needed).
 
-=item * Auditorium. A large lecture-hall style room, with seating, capable
-   of holding the full assembly.
+=item * Auditorium
 
-=item * Meeting rooms. Three additional rooms with a total capacity
-   approximately equal to that of the full assembly.
+A large lecture-hall style room, with seating, capable of holding
+the full assembly.
 
-=item * Dining Area. A dining area capable of seating the full assembly
-   for dinner.  The area should have a public-address system, although
-   Yet Another Society may provide it.  It may be off-site, but must
-   be near.
+=item * Meeting rooms
 
-=item * Common area.  A common area in which groups of attendees can
-   informally meet and in which conference registration can take
-   place, and a number (6 or so) tables for registration and
-   information booths.
+Three additional rooms with a total capacity approximately equal to
+that of the full assembly.
 
-=item * Terminal room. A room capable of holding computers, to be used as a
-   terminal room.  This room must have an internet network connection
-   available to host some 10-20 desktop computes and enough room for
-   some 10-20 people to connect with their own laptops, as well as
-   tables and chairs.  It should be secureable.
+=item * Dining Area
 
-=item * Storage. A secure room in which to store supplies, including
-   materials for all the attendees and all necessary equipment.
+A dining area capable of seating the full assembly for dinner.  The
+area should have a public-address system, although Yet Another Society
+may provide it.  It may be off-site, but must be near.
+
+=item * Common area
+
+A common area in which groups of attendees can informally meet and
+in which conference registration can take place, and a number (6 or
+so) tables for registration and information booths.
+
+=item * Terminal room
+
+A room capable of holding computers, to be used as a terminal room.
+This room must have an internet network connection available to host
+some 10-20 desktop computes and enough room for some 10-20 people to
+connect with their own laptops, as well as tables and chairs.  The
+network setup should be secured.
+
+=item * Storage
+
+A secure room in which to store supplies, including materials for all
+the attendees and all necessary equipment.
 
 =head1 Catering
 
@@ -69,41 +79,46 @@ lactose-free or low-carbohydrate meals.  While not all meals may
 be provided, the resources must be available; the amount of catering
 is influenced by the amount of sponsorship.
 
-=head1 Accomodation
+=head1 Accommodation
 
 Nearby commercial hotels, restaurants, and social venues must
 be available.
 
 Inexpensive dormitory-style accommodations for approximately half
-the assembly is desireable. If the facility does not offer
-accommodation, some nearby inexpensive accomodations, such as
+the assembly is desirable. If the facility does not offer
+accommodation, some nearby inexpensive accommodations, such as
 hostels and campgrounds, should be identified. Ethernet (wired or
 wireless) capabilities, and telephones, are desirable but not
 required, as are linens and towels.
 
 =head1 Equipment
 
-=item * Auditorium and Meeting Rooms. Public address system, data
-projectors, transparency (overhead) projectors, and both wired and
-wireless Ethernet.  Preferably wireless microphones as well
-as podium mics.
+=item * Auditorium and Meeting Rooms
 
-=item * The Dining area must also have a PA system.   
+Public address system, data projectors, transparency (overhead)
+projectors, and both wired and wireless Ethernet.  Preferably
+wireless microphones as well as podium mics.
 
-=item * Terminal room. At least one Ethernet connection (ideally 100baseTX
-Fast Ethernet) and sufficient AC power to provide power to a number
-computers and monitors. Preferably, there would be working
-networked computers in place, but these may be arranged by the Yet
-Another Society.
+=item * The Dining area
 
-=item * Dedicated Internet addresses are not required (DHCP or NAT are both
-acceptable) but an unfiltered connection to the Internet is
-required.  Wireless access (802.11b) may be present or provided by
-Yet Another Society.
+It must also have a PA system.   
+
+=item * Terminal room
+
+At least one Ethernet connection (ideally 100baseTX Fast Ethernet)
+and sufficient AC power to provide power to a number computers and
+monitors. Preferably, there would be working networked computers
+in place, but these may be arranged by the Yet Another Society.
+
+=item * Dedicated Internet addresses
+
+These are not required (DHCP or NAT are both acceptable) but an
+unfiltered connection to the Internet is required.  Wireless access
+(802.11b) may be present or provided by Yet Another Society.
 
 =head1 Transportation
 
-Nearby access to an Airport, preferrably a large one.  Parking
+Nearby access to an Airport, preferably a large one.  Parking
 facilities or arrangements, as appropriate.  How to arrive by
 public transport and taxi from the airport, or other major points.
 
